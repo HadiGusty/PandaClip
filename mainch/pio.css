@@ -1,0 +1,73 @@
+	body{
+		background:#A1887F;
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: Tw Cen MT;
+	}
+	.biodata{
+		position: relative;
+		margin: auto 80px;
+	}
+	.biografi{
+		position: relative;
+		font-size: 23px;
+		text-align: justify;
+		width: 350px;
+		margin: auto 80px;
+		color: white;
+	}
+	h1{
+		font-size: 50px;
+		font-weight: bold;
+		color: white;
+		-webkit-text-stroke-width: 2px;
+   		-webkit-text-stroke-color: black;
+	}
+	table{
+		font-size: 30px;
+		font-weight: bold;
+		
+	}
+	.td{
+		color: white;
+		-webkit-text-stroke-width: 1px;
+   		-webkit-text-stroke-color: black;
+	}
+	.container{
+		position: relative;
+		width: 360px;
+		height: 360px;
+		margin-top: 150px;
+		background: rgb(0,0,0,.3);
+		transform: rotate(-30deg) skew(25deg) scale(.8);
+		transition: 0.5s;
+		border-radius: 5px;
+	}
+	.container img{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		transition: 0.5s
+	}
+	.container:hover img:nth-child(4){
+		transform: translate(160px, -160px);
+		opacity: 1;
+	}
+	.container:hover img:nth-child(3){
+		transform: translate(120px, -120px);
+		opacity: .8;
+	}
+	.container:hover img:nth-child(2){
+		transform: translate(80px, -80px);
+		opacity: .6;
+	}
+	.container:hover img:nth-child(1){
+		transform: translate(40px, -40px);
+		opacity: .4;
+	}
